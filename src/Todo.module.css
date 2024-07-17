@@ -1,0 +1,64 @@
+.box{
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 80vh;
+    width: 55vh;
+}
+.topContainer{
+    background: linear-gradient(90deg,rgb(121, 241, 164),rgb(19, 99, 172));
+    color: white;
+    border-radius: 6px 6px 0 0;
+}
+.inputContainer{
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.inputBox{
+    margin-left: 10px;
+    background: transparent;
+    min-width: 86%;
+    padding: 10px;
+}
+.inputBox:focus{
+    outline: none;
+}
+.btn{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.listItem{
+    list-style: none;
+}
+.listItemStyle{
+    padding-left: 20px;
+    list-style: none;
+}
+.hoverTxt{
+    visibility: hidden;
+}
+.pTxt:hover .hoverTxt{
+    background-color: blue;
+    visibility: visible;
+}
+.delbtn{
+    background: transparent;
+    float: right;
+    border: none;
+    color: rgb(63, 66, 66);
+}
+.delbtn:hover {
+    color: rgb(172, 168, 163);
+}
+.editIcon{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 15px;
+    color: rgb(63, 66, 66);
+}
+.editIcon:hover {
+    color: rgb(172, 168, 163);
+}
+.saveBtn{
+    margin-left: 34px;
+}
